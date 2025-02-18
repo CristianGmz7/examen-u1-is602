@@ -3,6 +3,8 @@ import React from 'react'
 import { globalStyles } from '@/styles/global-styles'
 import { Colors } from '@/constants/Colors'
 import { useFonts } from 'expo-font'
+import TemperatureApp from './TemperatureApp'
+import ColorApp from './ColorApp'
 
 
     // const [  ] = useFonts({
@@ -14,7 +16,8 @@ import { useFonts } from 'expo-font'
 const App = () => {
   return (
     <View>
-      <Text>index</Text>
+      {/* <TemperatureApp /> */}
+      <ColorApp />
     </View>
   )
 }
